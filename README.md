@@ -34,9 +34,8 @@ Dataset: 74,681 tweets, 4 classes.
 ├── LSTM.ipynb            # LSTM baseline
 ├── BERT.ipynb            # Fine-tuned BERT baseline
 ├── BERT_Enhanced.ipynb   # Hybrid BERT + BiLSTM + CNN model
-├── data/
-│   ├── twitter_training.csv
-│   └── twitter_validation.csv
+   ├── twitter_training.csv
+   ├── twitter_validation.csv
 ├── requirements.txt
 └── README.md
 ```
@@ -46,7 +45,7 @@ Dataset: 74,681 tweets, 4 classes.
 The notebooks were developed in Google Colab.
 
 1. Open a notebook in [Google Colab](https://colab.research.google.com) (File > Upload notebook) or in Jupyter.
-2. Upload `twitter_training.csv` from the `data/` folder into the same working directory as the notebook. The notebooks read it by file name.
+2. Upload `twitter_training.csv` into the same working directory as the notebook. The notebooks read it by file name.
 3. Install the dependencies if needed: `pip install -r requirements.txt`
 4. Run all cells. Use a GPU runtime for the BERT-based notebooks.
 
