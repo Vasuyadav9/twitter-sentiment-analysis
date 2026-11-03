@@ -27,19 +27,15 @@ Dataset: 74,681 tweets, 4 classes.
 6. **Inference:** a prediction function returns the sentiment label with a confidence score.
 
 ## Repository structure
-
-```
 .
 ├── CNN.ipynb             # CNN baseline
 ├── LSTM.ipynb            # LSTM baseline
 ├── BERT.ipynb            # Fine-tuned BERT baseline
 ├── BERT_Enhanced.ipynb   # Hybrid BERT + BiLSTM + CNN model
-   ├── twitter_training.csv
-   ├── twitter_validation.csv
+├── twitter_training.csv
+├── twitter_validation.csv
 ├── requirements.txt
 └── README.md
-```
-
 ## How to run
 
 The notebooks were developed in Google Colab.
